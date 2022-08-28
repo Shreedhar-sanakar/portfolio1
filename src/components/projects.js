@@ -307,7 +307,7 @@ function Project(){
     
 {/* project 4 */}
 <div style={{textAlign:"center"}}>
-      <p className="title2 project2"><span style={{color:"tomato"}}>PASSWORD</span> REST</p>
+      <p className="title2 project2"><span style={{color:"tomato"}}>HOTEL</span> BOOKING</p>
     </div>
 
     <div className="container" data-aos="zoom-in">
@@ -342,8 +342,7 @@ function Project(){
          
         </div>
         <div className="col-lg-6 projectInfo" style={{padding:" 0px 20px 20px 20px"}}>
-          <p className="para1"><span className="imp">PASSWORD REST</span>  the task is to implement a correct password reset flow with email verification and proper update of the new password in the database for the web app
-         
+          <p className="para1"><span className="imp">HOTEL BOOKING</span>  •	Online Booking means a booking originating from your own website. The Services will be integrated into your website so that a Guest visiting your website who seeks to make a reservation will be directed to Campspot to complete the booking
           </p>
           <div  className="usedIcons" >
 
@@ -403,14 +402,14 @@ function Project(){
             
           </div>
           <div style={{display:"flex" , marginTop:'15px' , flexWrap:"wrap" , position:"relative"}}>
-            <a href="https://github.com/Shreedhar-sanakar/reset-fe" target="blank" className="anchor">
+            <a href="https://github.com/Shreedhar-sanakar/hotelbookfd" target="blank" className="anchor">
               <button className="codeBtn">FrontEnd <i className="fab fa-github" style={{marginLeft:"8px"}}></i></button>
             </a>
-            <a href="https://github.com/Shreedhar-sanakar/reset-be" target="blank" className="anchor">
+            <a href="https://github.com/Shreedhar-sanakar/hotelbackend" target="blank" className="anchor">
               <button className="codeBtn">BackEnd<i className="fab fa-github" style={{marginLeft:"8px"}}></i></button>
             </a>
             <div className="ee">
-            <a href = "https://splendid-kelpie-f4bca9.netlify.app" target="blank" className="anchor">
+            <a href = "https://astounding-salamander-9068a2.netlify.app" target="blank" className="anchor">
             <button className="codeBtn">Live Demo <i className="fas fa-level-down-alt" style={{marginLeft:"8px"}}></i></button>
             </a>
             <div className="credentials">
