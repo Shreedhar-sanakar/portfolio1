@@ -12,7 +12,7 @@ AOS.init({
 
 function Project(){
 
-  const[work , setWork] = React.useState(false)
+
 
     return(
         <>
@@ -307,7 +307,7 @@ function Project(){
     
 {/* project 4 */}
 <div style={{textAlign:"center"}}>
-      <p className="title2 project2"><span style={{color:"tomato"}}>HOTEL</span> BOOKING</p>
+      <p className="title2 project2"><span style={{color:"tomato"}}>MEMORIES</span> APP</p>
     </div>
 
     <div className="container" data-aos="zoom-in">
@@ -342,9 +342,9 @@ function Project(){
          
         </div>
         <div className="col-lg-6 projectInfo" style={{padding:" 0px 20px 20px 20px"}}>
-          <p className="para1"><span className="imp">HOTEL BOOKING</span>  •	Online Booking means a booking originating from your own website. The Services will be integrated into your website so that a Guest visiting your website who seeks to make a reservation will be directed to Campspot to complete the booking
+          <p className="para1"><span className="imp">MEMORIES APP</span>  A web application similar to instagram where users can post media and chat with other users
           </p>
-          <div  className="usedIcons" >
+        <div  className="usedIcons" >
 
             <div className="pop">
               <div className="prjDiv">
@@ -402,23 +402,19 @@ function Project(){
             
           </div>
           <div style={{display:"flex" , marginTop:'15px' , flexWrap:"wrap" , position:"relative"}}>
-            <a href="https://github.com/Shreedhar-sanakar/hotelbookfd" target="blank" className="anchor">
+            <a href="https://github.com/Shreedhar-sanakar/Memories-frontend-main" target="blank" className="anchor">
               <button className="codeBtn">FrontEnd <i className="fab fa-github" style={{marginLeft:"8px"}}></i></button>
             </a>
-            <a href="https://github.com/Shreedhar-sanakar/hotelbackend" target="blank" className="anchor">
+            <a href="https://github.com/Shreedhar-sanakar/Memories-backend-main" target="blank" className="anchor">
               <button className="codeBtn">BackEnd<i className="fab fa-github" style={{marginLeft:"8px"}}></i></button>
             </a>
             <div className="ee">
-            <a href = "https://astounding-salamander-9068a2.netlify.app" target="blank" className="anchor">
+            <a href = "https://bespoke-licorice-af0fcc.netlify.app" target="blank" className="anchor">
             <button className="codeBtn">Live Demo <i className="fas fa-level-down-alt" style={{marginLeft:"8px"}}></i></button>
             </a>
             <div className="credentials">
             <div>
-              <p  className="demoCred" style={{color:"#ccd602" , fontWeight:"bold"}}>DEMO CREDENTIALS</p>
-              <p  className="demoCred" style={{color:"tomato"}}>UserName: </p>
-              <p  className="demoCred">shridhar.sanakar@gmail.com</p>
-              <p  className="demoCred" style={{color:"tomato"}}>Password :</p>
-              <p  className="demoCred"> admin123</p>
+              
             </div>
             </div>
             </div>
@@ -437,7 +433,7 @@ function Project(){
 {/* extra project 2 */}
 
 <div style={{textAlign:"center"}}>
-      <p className="title2 project2"><span style={{color:"tomato"}}>DASHBOARD</span> PROFILE</p>
+      <p className="title2 project2"><span style={{color:"tomato"}}>TICKET MANAGEMENT </span> SYSTEM</p>
     </div>
 
     <div className="container" data-aos="zoom-in">
@@ -450,7 +446,7 @@ function Project(){
         </div>
         <div className="col-lg-6 projectInfo" style={{padding:" 0px 20px 20px 20px"}}>
        
-          <p className="para1"><span className="imp">DASHBOARD</span>  Implement a admin DASHBOARD with CRUD
+          <p className="para1"><span className="imp">TICKET MANAGEMENT SYSTEM</span>  A single page application on ticket management system built using MERN stack
           
           </p>
          
@@ -474,14 +470,7 @@ function Project(){
               </div>
             </div>
 
-            <div className="pop">
-              <div className="prjDiv">
-                <img src="./images/jsIcon.png" alt="icon1" className="prjIcons"/>
-              </div>
-              <div className="softIcon">
-                <p className="smallName">JSS</p>
-              </div>
-            </div>
+          
 
             <div className="pop">
               <div className="prjDiv">
@@ -491,13 +480,55 @@ function Project(){
                 <p className="smallName">Bootstrap</p>
               </div>
             </div>
+            <div className="pop">
+              <div className="prjDiv">
+                <img src="./images/reactIcon.png" alt="icon1" className="prjIcons"/>
+              </div>
+              <div className="softIcon">
+                <p  className="smallName">React</p>
+              </div>
+            </div>
+
+            <div className="pop">
+              <div className="prjDiv">
+                <img src="./images/mongoDBicon.png" alt="icon1" className="prjIcons"/>
+              </div>
+              <div className="softIcon">
+                <p className="smallName">MongoDB</p>
+              </div>
+            </div>
+
+            <div className="pop">
+              <div className="prjDiv">
+                <img src="./images/nodeJsIcon.png" alt="icon1" className="prjIcons"/>
+              </div>
+              <div className="softIcon">
+                <p className="smallName">NodeJs</p>
+              </div>
+            </div>
+
+          
+
+          
+
+            <div className="pop">
+              <div className="prjDiv">
+                <img src="./images/express.png" alt="icon1" className="prjIcons"/>
+              </div>
+              <div className="softIcon">
+                <p className="smallName">Express</p>
+              </div>
+            </div>
             
           </div>
           <div style={{display:"flex" , marginTop:'40px' , flexWrap:"wrap" }}>
-            <a href="https://github.com/Shreedhar-sanakar/React_DASHBOARD-with-CRUD" target="blank" className="anchor">
+            <a href="https://github.com/Shreedhar-sanakar/TicketManagementTool_fe-" target="blank" className="anchor">
               <button className="codeBtn">FrontEnd <i className="fab fa-github" style={{marginLeft:"8px"}}></i></button>
             </a>
-            <a href = "https://genuine-sfogliatella-93743d.netlify.app" target="blank" className="anchor">
+            <a href="https://github.com/Shreedhar-sanakar/TicketManagementTool_BE" target="blank" className="anchor">
+              <button className="codeBtn">BackEnd<i className="fab fa-github" style={{marginLeft:"8px"}}></i></button>
+            </a>
+            <a href = "https://merry-lolly-b8be0a.netlify.app" target="blank" className="anchor">
             <button className="codeBtn">Live Demo <i className="fas fa-level-down-alt" style={{marginLeft:"8px"}}></i></button>
             </a>
           </div>
@@ -515,8 +546,8 @@ function Project(){
     <hr style={{marginTop:"0px"}}/>
 
 
-    <div style={{display:"flex"  ,justifyContent:"center"}}>
-      <button className="codeBtnss2" onClick={()=>{setWork(!work)}}>{work ? "VIEW LESS" : "VIEW MORE PROJECTS"}</button>
+   <div style={{display:"flex"  ,justifyContent:"center"}}>
+     
     </div>
 
 
